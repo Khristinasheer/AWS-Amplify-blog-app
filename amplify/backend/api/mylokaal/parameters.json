@@ -1,5 +1,11 @@
 {
     "AppSyncApiName": "mylokaal",
     "DynamoDBBillingMode": "PAY_PER_REQUEST",
-    "DynamoDBEnableServerSideEncryption": false
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authmylokaal73f17117",
+            "Outputs.UserPoolId"
+        ]
+    }
 }
