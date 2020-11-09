@@ -1,11 +1,3 @@
-### Tech stack:
-
-- Frontend: Next.js, React, Tailwind 
-- Backend: AWS Amplify 
-- API: GraphQL API using AWS AppSync (a managed GraphQL service) 
-- Database: Amazon DynamoDB (a NoSQL database)
-- Hosting: Vercel
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
